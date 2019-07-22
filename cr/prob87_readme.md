@@ -1,3 +1,5 @@
+## Daily Coding Problem \#87
+
 This problem was asked by Uber.
 
 A rule looks like this:
