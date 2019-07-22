@@ -12,13 +12,17 @@ this means that point A is southwest of C.
 
 Given a list of rules, check if the sum of the rules validate. For example:
 
-```A N B
+```
+A N B
 B NE C
-C N A```
+C N A
+```
 
 does not validate, since A cannot be both north and south of C.
 
-```A NW B
-A N B```
+```
+A NW B
+A N B
+```
 
 is considered valid.
