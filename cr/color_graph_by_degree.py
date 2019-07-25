@@ -1,5 +1,16 @@
 from random import choices
 
+color_list = ['amber','amethyst','apricot','aqua','aquamarine','auburn','azure','beige','black','blue','bronze','brown',
+              'burnt umber','cardinal','carmine','celadon','cerise','cerulean','charcoal','chartreuse','chocolate',
+              'cinnamon','copper','coral','cream','crimson','cyan','dark','denim','desert sand','ebony','ecru',
+              'eggplant','emerald','forest green','fuchsia','gold','goldenrod','gray','green','grey','hot pink',
+              'indigo','ivory','jade','jungle green','kelly green','khaki','lavender','lemon','lilac','lime','magenta',
+              'mahogany','maroon','mauve','mustard','navy blue','ocher','olive','orange','orchid','pale','pastel',
+              'peach','periwinkle','persimmon','pewter','pink','primary','pumpkin','purple','red','rose','ruby',
+              'russet','rust','saffron','salmon','sapphire','scarlet','sea green','sepia','shamrock green','sienna',
+              'silver','slate','steel blue','tan','tangerine','taupe','teal','terracotta','thistle','tomato red',
+              'topaz','turquoise','ultramarine','umber','vermilion','violet','veridian','wheat brown','white','yellow']
+
 
 class GraphNode:
 
@@ -107,15 +118,3 @@ l.neighbors.add(k)
 l.neighbors.add(e)
 """
 
-""" Test Color List
-color_list = ['amber','amethyst','apricot','aqua','aquamarine','auburn','azure','beige','black','blue','bronze','brown',
-              'burnt umber','cardinal','carmine','celadon','cerise','cerulean','charcoal','chartreuse','chocolate',
-              'cinnamon','copper','coral','cream','crimson','cyan','dark','denim','desert sand','ebony','ecru',
-              'eggplant','emerald','forest green','fuchsia','gold','goldenrod','gray','green','grey','hot pink',
-              'indigo','ivory','jade','jungle green','kelly green','khaki','lavender','lemon','lilac','lime','magenta',
-              'mahogany','maroon','mauve','mustard','navy blue','ocher','olive','orange','orchid','pale','pastel',
-              'peach','periwinkle','persimmon','pewter','pink','primary','pumpkin','purple','red','rose','ruby',
-              'russet','rust','saffron','salmon','sapphire','scarlet','sea green','sepia','shamrock green','sienna',
-              'silver','slate','steel blue','tan','tangerine','taupe','teal','terracotta','thistle','tomato red',
-              'topaz','turquoise','ultramarine','umber','vermilion','violet','veridian','wheat brown','white','yellow']
-"""
